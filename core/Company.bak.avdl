@@ -1,0 +1,17 @@
+
+protocol CompanyProtocol {
+	import idl "\"Employee.bak.avdl\"";
+
+	record Company {
+		string name;
+		array<Employee> employees;
+		BusinessType type;
+	}
+	enum BusinessType {
+		Finance,
+		Healthcare,
+		Banking
+	}
+}
+
+

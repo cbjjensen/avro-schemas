@@ -1,0 +1,8 @@
+protocol EmployeeProtocol {
+	record Employee {
+		string name;
+		boolean active = true;
+		long salary;
+	}
+}
+
