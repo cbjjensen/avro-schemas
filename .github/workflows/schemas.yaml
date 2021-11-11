@@ -1,3 +1,0 @@
-schemas:
-  - subject: test-value
-    file: core/test.avsc
