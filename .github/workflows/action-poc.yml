@@ -20,6 +20,6 @@ jobs:
         with:
           avro-files-path: avro/
           avro-subject-yaml: schemas.yaml
-          schema-registry-url: http://54.245.79.6:8081
+          schema-registry-url: http://54.245.79.2:8081
           schema-registry-api-key: x
           schema-registry-secret-key: x
