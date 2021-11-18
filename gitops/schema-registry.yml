@@ -2,10 +2,10 @@ compatibility: FULL_TRANSITIVE
 
 subjects:
   - name: test-value
-    file: avro/core/test.avsc
+    file: ../avro/core/test.avsc
     compatibility: BACKWARD
     type: AVRO
   - name: newtopic-value
-    file: avro/core/other.avsc
+    file: ../avro/core/other.avsc
     compatibility: BACKWARD
     type: AVRO
