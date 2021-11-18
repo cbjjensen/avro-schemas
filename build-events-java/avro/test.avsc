@@ -8,13 +8,8 @@
       "type": "string"
     },
     {
-      "default": "yellow",
+      "default": "red",
       "name": "f2",
-      "type": "string"
-    },
-    {
-      "default": "blue",
-      "name": "f3",
       "type": "string"
     }
   ]

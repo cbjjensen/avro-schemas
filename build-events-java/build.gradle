@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id "com.github.davidmc24.gradle.plugin.avro" version "1.2.0"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation "org.apache.avro:avro:1.11.0"
+}
+
+//https://githubmemory.com/repo/davidmc24/gradle-avro-plugin/issues/98
+// By default, the gradle-plugin-avro plugin looks in src/main/avro for avro files.
+// These settings below allow us to externalize the avro from the java project.
+generateAvroProtocol {
+    source("avro")
+}
+generateAvroJava {
+    source("avro")
+}
+
+test {
+    useJUnitPlatform()
+}
