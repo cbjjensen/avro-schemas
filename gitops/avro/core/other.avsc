@@ -13,6 +13,7 @@
       "type": "string"
     },
     {
+      "default": "blue",
       "name": "f3",
       "type": "string"
     }
