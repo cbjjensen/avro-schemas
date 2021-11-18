@@ -1,0 +1,21 @@
+{
+  "type":"record",
+  "name":"myrecord",
+  "fields":[
+    {
+      "default": "green",
+      "name": "f1",
+      "type": "string"
+    },
+    {
+      "default": "yellow",
+      "name": "f2",
+      "type": "string"
+    },
+    {
+      "default": "RED",
+      "name": "f3",
+      "type": "string"
+    }
+  ]
+}
