@@ -1,0 +1,13 @@
+name: Apply Schema Changes
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Apply-Schema-Changes-Action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate Schema Registries
+        uses: actions/checkout@v2
+      - run: echo "Validating the schema registry"
+      - run: docker run -v  "$(pwd)":/data domnikl/schema-registry-gitops apply --properties /data/gitops/configuration.properties /data/gitops/schema-registry.yml
