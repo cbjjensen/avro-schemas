@@ -11,6 +11,10 @@
       "default": "yellow",
       "name": "f2",
       "type": "string"
+    },
+    {
+      "name": "f3",
+      "type": "string"
     }
   ]
 }
