@@ -8,7 +8,7 @@
       "type": "string"
     },
     {
-      "default": "yellow",
+      "default": "blue",
       "name": "f2",
       "type": "string"
     }
