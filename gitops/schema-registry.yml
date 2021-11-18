@@ -1,0 +1,7 @@
+compatibility: FULL_TRANSITIVE
+
+subjects:
+  - name: test-value
+    file: avro/core/test.avsc
+    compatibility: BACKWARD
+    type: AVRO
