@@ -1,7 +1,5 @@
 {
-  "type":"record",
-  "name":"myrecord",
-  "fields":[
+  "fields": [
     {
       "default": "green",
       "name": "f1",
@@ -17,5 +15,8 @@
       "name": "f3",
       "type": "string"
     }
-  ]
+  ],
+  "name": "myrecord2",
+  "namespace": "core",
+  "type": "record"
 }

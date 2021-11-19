@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "generate:avro": "shx cp `find ../avro -name \"*.avsc\"` avro && shx rm -rf ./generated/events && shx mkdir -p ./generated/events && avro-to-typescript --compile ./avro ./generated/events",
+    "build": "npm run generate:avro && tsc"  
+  },
+  "devDependencies": {
+    "shx": "^0.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@chasdevs/avro-to-typescript": "^1.4.0"
+  }
+}
