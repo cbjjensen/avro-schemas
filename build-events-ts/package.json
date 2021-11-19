@@ -1,0 +1,19 @@
+{
+  "name": "@pagopa/io-functions-elt",
+  "description": "Integration between IO data and PDND",
+  "author": "IO team",
+  "repository": "https://github.com/pagopa/io-functions-elt",
+  "version": "1.1.2",
+  "license": "MIT",
+  "scripts": {
+    
+    "generate:avro": "shx rm -rf ./generated/avro && shx mkdir -p ./generated/avro && avro-to-typescript --compile ./avro ./generated/avro"
+  },
+  "devDependencies": {
+    "shx": "^0.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@chasdevs/avro-to-typescript": "^1.4.0"
+  }
+}
