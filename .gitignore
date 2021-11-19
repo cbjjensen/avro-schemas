@@ -77,6 +77,7 @@ fabric.properties
 
 node_modules
 /node_modules
-build-events-ts/generated
 .DS_Store
-
+build-events-ts/dist
+build-events-ts/avro
+build-events-ts/generated
