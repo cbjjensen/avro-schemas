@@ -1,7 +1,7 @@
 # avro-schemas
 This is a test repository for aws self managed confluent server git-ops avro schemas 
 
-CI-CD/Gitops peline for managing avro schemas. 
+CI-CD/Gitops pipeline for managing avro schemas. 
 
 ## GOALS:
 1. Validate/PLAN AVRO Schema Changes on non-main branch push against configured schema registry
