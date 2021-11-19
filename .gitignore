@@ -77,3 +77,6 @@ fabric.properties
 
 node_modules
 /node_modules
+build-events-ts/generated
+.DS_Store
+

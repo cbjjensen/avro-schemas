@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "scripts": {
-    "generate:avro": "shx cp `find ../avro -name \"*.avsc\"` avro && shx rm -rf ./generated/avro && shx mkdir -p ./generated/avro && avro-to-typescript --compile ./avro ./generated/avro"
+    "generate:avro": "shx cp `find ../avro -name \"*.avsc\"` avro && shx rm -rf ./generated/events && shx mkdir -p ./generated/events && avro-to-typescript --compile ./avro ./generated/events"
   },
   "devDependencies": {
     "shx": "^0.3.2",
