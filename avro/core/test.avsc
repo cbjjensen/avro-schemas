@@ -9,7 +9,7 @@
       "type": "string"
     },
     {
-      "default": "red",
+      "default": "blue",
       "name": "f2",
       "type": "string"
     }
