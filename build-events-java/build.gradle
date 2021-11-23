@@ -20,10 +20,10 @@ dependencies {
 // By default, the gradle-plugin-avro plugin looks in src/main/avro for avro files.
 // These settings below allow us to externalize the avro from the java project.
 generateAvroProtocol {
-    source("avro")
+    source("../avro")
 }
 generateAvroJava {
-    source("avro")
+    source("../avro")
 }
 
 test {
