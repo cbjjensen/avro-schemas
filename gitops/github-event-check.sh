@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Github SHA: ${GITHUB_SHA::6}"
+echo "GITHUB_EVENT_NAME: $GITHUB_EVENT_NAME"
+echo "GITHUB_WORKFLOW: $GITHUB_WORKFLOW"
