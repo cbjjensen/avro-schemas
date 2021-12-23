@@ -1,7 +1,10 @@
 name: Reusable workflow example
 on:
   workflow_call:
-
+    inputs:
+      username:
+        required: false
+        type: string
 jobs:
   example_job:
     name: sample re-use
