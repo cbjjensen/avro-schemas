@@ -6,11 +6,12 @@ on:
 #   pull_request:
 #     branches: [main]
 jobs:
+  Call-Re-use:
+    uses: cbjjensen/avro-schemas/.github/workflows/example.yml@4bb28c179f960f0f68353c6ffdf4b971a4cd14cf
   Update-NPM-Artifact:
     runs-on: ubuntu-latest
     steps:
       - name: Download latest branch
         uses: actions/checkout@v2
-      - name: Call reusable
-        uses: cbjjensen/avro-schemas/.github/workflows/example.yml@4bb28c179f960f0f68353c6ffdf4b971a4cd14cf
+
       
