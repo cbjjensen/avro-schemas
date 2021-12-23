@@ -12,3 +12,5 @@ jobs:
     steps:
       - name: 'thing'
         run: echo "hello"
+      - run: mkdir bob/
+      - run: ls -la
