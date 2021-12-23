@@ -7,7 +7,7 @@ on:
 #     branches: [main]
 jobs:
   Call-Re-use:
-    uses: cbjjensen/avro-schemas/.github/workflows/example.yml@4bb28c179f960f0f68353c6ffdf4b971a4cd14cf
+    uses: cbjjensen/avro-schemas/.github/workflows/example.yml@c4023eaf40e660a089908e752590413d3f76ff1f
   Update-NPM-Artifact:
     runs-on: ubuntu-latest
     steps:
