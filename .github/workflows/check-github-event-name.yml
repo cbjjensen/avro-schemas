@@ -11,6 +11,6 @@ jobs:
     steps:
       - name: Download latest branch
         uses: actions/checkout@v2
-      - name: Call reusable
-      - uses: cbjjensen/avro-schemas/.github/workflows/example.yml@4d5427226722797d0a93ccbdf0a8e2beeaf05373
+ #     - name: Call reusable
+ #     - uses: cbjjensen/avro-schemas/.github/workflows/example.yml@4d5427226722797d0a93ccbdf0a8e2beeaf05373
       
