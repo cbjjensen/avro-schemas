@@ -1,6 +1,11 @@
-name: 'fun composite'
-runs:
-  using: "composite'
-  steps:
-    - name: Say something
-      run: echo "Hi friends"
+name: Reusable workflow example
+on:
+  workflow_call:
+
+jobs:
+  example_job:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'thing'
+        run: echo "hello"
