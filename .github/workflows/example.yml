@@ -4,8 +4,8 @@ on:
 
 jobs:
   example_job:
-    runs-on: ubuntu-latest
     name: test
+    runs-on: ubuntu-latest
     steps:
       - name: 'thing'
         run: echo "hello"
