@@ -1,6 +1,6 @@
 name: 'fun composite'
 runs:
-  using: "composite"
+  using: "composite'
   steps:
     - name: Say something
-      run: echo "Hi friend"
+      run: echo "Hi friends"
