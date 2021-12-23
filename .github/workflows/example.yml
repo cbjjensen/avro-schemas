@@ -4,7 +4,7 @@ on:
 
 jobs:
   example_job:
-    name: test
+    name: sample re-use
     runs-on: ubuntu-latest
     steps:
       - name: 'thing'
