@@ -1,9 +1,10 @@
 name: Update Package Artifacts
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    branches: '*'
+#     branches: [main]
+#   pull_request:
+#     branches: [main]
 jobs:
   Update-NPM-Artifact:
     runs-on: ubuntu-latest
